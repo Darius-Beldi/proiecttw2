@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Editare</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <button id="clear-localstorage">Șterge localStorage</button>
+    <!-- Adăugarea formularului pentru adăugarea unui boardgame -->
+    <div class="boardgame-form-container">
+        <h2>Adăugare Boardgame</h2>
+        <form id="boardgame-form">
+            <label for="boardgame-name">Nume Boardgame:</label>
+            <input type="text" id="boardgame-name" name="boardgame-name" required>
+            <label for="price">Preț:</label>
+            <input type="number" id="price" name="price" required>
+            <label for="stock">Stoc:</label>
+            <input type="number" id="stock" name="stock" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 BoardgamesOtopeni. Toate drepturile rezervate.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="scripteditare.js"></script>
+</body>
+</html>

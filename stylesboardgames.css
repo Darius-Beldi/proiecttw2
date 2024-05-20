@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cec595;
+}
+
+header {
+    background-color: #394213;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#contact-section {
+    margin: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #b8b18e;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-top: 10px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#form-status {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#confirmation-box {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #394213;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+footer.dark-mode {
+    background-color: #000;
+}
+
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #2e501f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.theme-toggle:hover {
+    background-color: #3c6a28;
+}
+
+.boardgame {
+    background-color: #928c6b;
+    border: 5px solid #dddddd;
+    border-radius: 100px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; 
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.boardgame h3 {
+    margin-top: 0;
+}
+
+.boardgame p {
+    margin: 10px 0;
+}
+
+#about-section {
+    text-align: center; /* Centrarea textului */
+    padding: 20px; /* Spatiu interior */
+    background-color: #928c6b; /* Culoare de fundal */
+    margin-top: 200px;
+    margin-right: 150px;
+    margin-left: 150px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#about-section h2 {
+    font-size: 24px; /* Dimensiunea textului pentru titlu */
+    margin-bottom: 20px; /* Spatiu intre titlu si paragraf */
+}
+
+#about-section p {
+    font-size: 18px; /* Dimensiunea textului pentru paragraf */
+    margin: 0 auto; /* Centrare pe orizontala */
+    max-width: 600px; /* Latime maxima */
+}
+
+#about-section.dark-mode {
+    background-color: #121212;
+    color: #f9f9f9;
+}
+.boardgame-form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.boardgame-form-container h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #333;
+}
+
+.boardgame-form-container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.boardgame-form-container input[type="text"],
+.boardgame-form-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.boardgame-form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.boardgame-form-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+#clear-localstorage {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#clear-localstorage:hover {
+    background-color: #c82333;
+}

@@ -1,0 +1,16 @@
+{
+    "books": [
+      { "title": "Cartea 1", "author": "Autor 1", "purchases": 150 },
+      { "title": "Cartea 2", "author": "Autor 2", "purchases": 250 },
+      { "title": "Cartea 3", "author": "Autor 3", "purchases": 300 },
+      { "title": "Cartea 4", "author": "Autor 4", "purchases": 200 },
+      { "title": "Cartea 5", "author": "Autor 5", "purchases": 175 },
+      { "title": "Cartea 6", "author": "Autor 6", "purchases": 225 },
+      { "title": "Cartea 7", "author": "Autor 7", "purchases": 275 },
+      { "title": "Cartea 8", "author": "Autor 8", "purchases": 325 },
+      { "title": "Cartea 9", "author": "Autor 9", "purchases": 350 },
+      { "title": "Cartea 10", "author": "Autor 10", "purchases": 400 },
+      { "title": "Cartea 11", "author": "Autor 11", "purchases": 300 }
+    ]
+  }
+  
